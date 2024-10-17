@@ -1,0 +1,19 @@
+/* for screen-size 1025px and smaller */
+@media (max-width: 1025px) {
+  .nav__items__list {
+    display: none;
+  }
+}
+
+/* for screen-size 1026px and larger */
+@media (min-width: 1026px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.hamburger {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
