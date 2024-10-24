@@ -1,11 +1,8 @@
 import React, { useState } from "react";
+import { useUser } from "../../context/userContext";
 
 const Hamburger = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  const { isOpen, setIsOpen, toggleMenu } = useUser();
 
   return (
     <div>
@@ -24,7 +21,7 @@ const Hamburger = () => {
           }`}
         ></span>
       </div>
-      <div
+      {/* <div
         className={`md:flex md:items-center md:space-x-8 absolute md:static bg-[#E0F7FA] h-full w-full md:w-auto left-0 md:left-auto transition-all duration-300 ease-in ${
           isOpen ? "top-14 opacity-100" : "top-[-200px] opacity-0"
         }`}
@@ -37,7 +34,7 @@ const Hamburger = () => {
           <li>Gallary</li>
           <li>Contact</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 };

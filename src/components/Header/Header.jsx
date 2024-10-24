@@ -13,17 +13,17 @@ const Header = () => {
       </div>
       <div className={styles.nav__items__list}>
         <ul className="flex justify-center items-center space-x-8 text-[18px] font-sans font-medium cursor-pointer">
-          <li className="hover:text-[#FF6F61]">Home</li>
-          <li className="hover:text-[#FF6F61]">About</li>
-          <li className="hover:text-[#FF6F61]">Services</li>
-          <li className="hover:text-[#FF6F61]">Room</li>
-          <li className="hover:text-[#FF6F61]">Gallary</li>
-          <li className="hover:text-[#FF6F61]">Contact</li>
+          <li className="hover:text-[#F67280]">Home</li>
+          <li className="hover:text-[#F67280]">About</li>
+          <li className="hover:text-[#F67280]">Services</li>
+          <li className="hover:text-[#F67280]">Room</li>
+          <li className="hover:text-[#F67280]">Gallary</li>
+          <li className="hover:text-[#F67280]">Contact</li>
         </ul>
       </div>
       <div>
         <button
-          className={`border border-s-gray-400 p-3 rounded-md font-sans font-bold text-white text-[16px] bg-[#00796B] ${styles.nav__items__list}`}
+          className={`border border-s-gray-400 p-3 rounded-md font-sans font-bold text-white text-[16px] bg-[#F67280] hover:text-black hover:bg-white ${styles.nav__items__list}`}
         >
           BOOK NOW
         </button>
