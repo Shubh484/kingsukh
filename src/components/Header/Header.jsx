@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center ml-[20px] mr-[20px] mt-4">
       <div>
-        <p className="text-3xl font-sans font-bold">KingSukh</p>
+        <p className="text-3xl font-sans font-bold text-[#F67280]">KingSukh</p>
+        <p className="font-sans font-normal">Guest house</p>
       </div>
       <div className={styles.hamburger}>
         <Hamburger />
